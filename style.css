@@ -31,6 +31,7 @@ header {
 span {
   color: var(--text-color1);
 }
+
 /* Navigation Section */
 nav {
   display: flex;
@@ -57,6 +58,7 @@ nav ul {
 .nav-icon {
   display: none;
 }
+
 /* Header Section */
 #banner {
   height: 754px;
@@ -205,7 +207,6 @@ nav ul {
   flex-direction: column;
   gap: 20px;
 }
-
 .info-item {
   display: flex;
   align-items: center;
@@ -215,22 +216,18 @@ nav ul {
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
   background: rgb(255, 255, 255);
 }
-
 .icon {
   margin-right: 35px;
 }
-
 .icon img {
   width: 79px;
 }
-
 .text h2 {
   margin: 0 0 10px 0;
   font-size: 1.5em;
   font-weight: 700;
   color: var(--text-color1);
 }
-
 .text p {
   margin: 0;
   font-size: 1em;
@@ -248,7 +245,94 @@ nav ul {
   border-radius: 10px;
   margin-left: 85px;
 }
-
 .shopping-section img {
   max-width: 100%;
+}
+
+/* Footer Content */
+footer {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+.footer-container {
+  width: 85%;
+  max-width: 1190px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-section h3 {
+  color: #fff;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.footer-section p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #737373;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  width: 85%;
+  max-width: 1190px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-top: 1px solid #444;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  font-size: 1em;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #737373;
+}
+
+.social-icons i {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  border-radius: 100%;
+  background-color: #33353d;
 }
