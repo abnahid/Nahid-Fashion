@@ -151,7 +151,6 @@ nav ul {
 .jacket-image img {
   width: 293px;
   height: 293px;
-  /* padding: 5px; */
   border: 1px dashed #adaea9;
 }
 .jacket-content {
@@ -169,7 +168,6 @@ nav ul {
   margin: 12px 0;
 }
 .man-jacket-container {
-  /* margin-top: 100px; */
   max-width: 1190px;
   margin: 100px auto;
 }
