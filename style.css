@@ -9,7 +9,7 @@
 }
 :root {
   --bg-color: #ffffff;
-  --btn-color: #e76f51;
+  --bg2-color: #fabe4c;
   --text-color1: #363958;
   --text-color2: #3e3e3e;
 }
@@ -50,6 +50,7 @@ nav ul {
   font-size: 16px;
   font-weight: 500;
   gap: 30px;
+  color: #3c3c3c;
   text-decoration: none;
   list-style: none;
 }
@@ -62,21 +63,28 @@ nav ul {
   padding: 0 150px;
   color: var(--bg-color);
 }
-
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 .home-content {
-  width: 700px;
-  margin-top: 134px;
+  width: 50%;
 }
 .home-title {
-  font-size: 65px;
-  font-weight: 700;
-  margin-bottom: 30px;
-  color: #fabe4c;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  color: var(--bg2-color);
 }
-
+.home-title span {
+  font-family: "Bebas Neue", sans-serif;
+}
 .home-description {
   font-size: 16px;
   font-weight: 400;
+  width: 457px;
   color: var(--text-color2);
   margin-bottom: 40px;
 }
@@ -84,7 +92,7 @@ nav ul {
   color: var(--bg-color);
   font-size: 20px;
   font-weight: 700;
-  padding: 17px 52px;
+  padding: 18px 30px;
   border: none;
   border-radius: 10px;
   background: linear-gradient(
@@ -94,13 +102,92 @@ nav ul {
   );
 }
 
-.section-title {
-  font-size: 48px;
-  font-weight: 600;
+.btn i {
+  font-size: 25px;
+  margin-right: 8px;
 }
 
-.section-description {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--btn-color);
+.home-image img {
+  width: 100%;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+/* WoMan Jacket & Man Jacket */
+#jacket h3 {
+  font-family: "Bebas Neue", sans-serif;
+}
+.woman-jacket-container {
+  max-width: 1190px;
+  margin: 0 auto;
+}
+.jackets {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.jacket {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 370px;
+  height: 550px;
+  padding: 20px 18px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+  background: rgb(255, 255, 255);
+}
+.jacket-image {
+  padding: 25px;
+  border-radius: 20px;
+  background: rgb(241, 241, 241);
+}
+.jacket-image img {
+  width: 293px;
+  height: 293px;
+  /* padding: 5px; */
+  border: 1px dashed #adaea9;
+}
+.jacket-content {
+  margin-top: 18px;
+}
+.jacket-content h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-color1);
+}
+.jacket-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-color2);
+  margin: 12px 0;
+}
+.man-jacket-container {
+  /* margin-top: 100px; */
+  max-width: 1190px;
+  margin: 100px auto;
+}
+.buy-now {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buy-now .btn {
+  font-size: 16px;
+  font-weight: 500;
+}
+.buy-now .btn i {
+  font-size: 18px;
+  margin-right: 8px;
+}
+.buy-now h4 {
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--bg2-color);
 }
