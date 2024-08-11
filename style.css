@@ -116,6 +116,7 @@ nav ul {
 .section-title {
   font-size: 48px;
   font-weight: 400;
+  margin-bottom: 30px;
 }
 
 /* WoMan Jacket & Man Jacket */
@@ -335,4 +336,111 @@ footer {
   margin-left: 6px;
   border-radius: 100%;
   background-color: #33353d;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .nav-icon {
+    display: block;
+    color: var(--text-color1);
+  }
+
+  .nav-icon i {
+    font-size: 35px;
+    margin-right: 20px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  section {
+    margin: 80px 25px;
+  }
+
+  #banner {
+    height: auto;
+    padding: 0 50px;
+  }
+
+  .home-container {
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 25px;
+  }
+
+  .home-content {
+    width: 100%;
+  }
+
+  .home-title {
+    font-size: 60px;
+    font-weight: 400;
+  }
+
+  .home-description {
+    width: 100%;
+  }
+
+  .home-image {
+    padding: 25px;
+  }
+
+  .jackets {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .jacket {
+    width: auto;
+    height: auto;
+    max-width: 500px;
+  }
+  .jacket-image {
+    width: auto;
+  }
+  .jacket-image img {
+    width: 100%;
+    height: auto;
+  }
+  .section-title {
+    text-align: center;
+  }
+
+  .info-container {
+    flex-direction: column;
+  }
+
+  .shopping-section {
+    margin-left: 0;
+    margin-top: 40px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .info-item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    padding: 30px 0 15px;
+  }
+
+  .footer-section {
+    margin: 0 10px;
+  }
+  .footer-container,
+  .footer-bottom {
+    gap: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .social-icons i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
 }
